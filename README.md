@@ -42,3 +42,8 @@ LEDs are 1m long with 20 LEDs.
 Using these LEDs:
 
 https://thepihut.com/products/adafruit-neopixel-slim-led-dot-strand-20-leds-at-2-pitch-1m
+
+# Power Supply
+Unit is supplied by 5V 2.1mm Barrel jack plug with centre positive.
+
+Worst case current consuption is 60mA per LED. So 60 x 0.06 = 3.6A. 
