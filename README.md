@@ -13,7 +13,7 @@ Each strand has two different colours to twinkle between.
 
 Sound sensor records preious 30 seconds to give background level. Sound must be higher than this background level to activate the lights. This dymanically removes background environmental noise. But it does mean that voice into the unit will gradually have less effect. If the sound goes quiet for a while then it can re-trigger.
 
-#Microcontroller
+# Microcontroller
 
 Adafruit Feather RP2040 SCORPIO - 8 Channel NeoPixel Driver
 
@@ -25,7 +25,7 @@ https://learn.adafruit.com/introducing-feather-rp2040-scorpio/overview
 
 Also need to inlcude some libraries - all via library manager.
     
-#Sound Sensor
+# Sound Sensor
 
 https://wiki.seeedstudio.com/Grove-Loudness_Sensor/
 
@@ -33,7 +33,7 @@ Uses connector on pin A1/pin 27.
   
 Potentiometer on pin A0/pin 26 - Sets sensitivity of maximum
 
-#LEDs
+# LEDs
 
 LED x 3 are on LED outputs 0/1/2 
 
