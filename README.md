@@ -1,4 +1,4 @@
-# voice_active_lights
+# Voice Activated LED lights
 Colour changing voice activated lights for Makers of Imaginary Worlds
 
 Sound sensor - to control LED colours when sound is heard.
