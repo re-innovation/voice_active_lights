@@ -14,14 +14,11 @@
 #define SOUND_PIN       27    // Has the sound sensor on this pin
 #define POT_PIN         26    // Has the sensitivity potentiometer on this pin
 
-// Below is for testing:
-#define DEBUG_TESTING   false
-
 //// Below is for PiMoRoNi board (testing)
 //#define SOUND_PIN       27    // Has the sound sensor on this pin
 //#define POT_PIN         26    // Has the sensitivity potentiometer on this pin
 
-#define MIN_SOUND       20    // Removes lower sounds
+#define MIN_SOUND       50    // Removes lower sounds
 
 // Which pin on the Arduino is connected to the NeoPixels?
 #define LED_PIN         15

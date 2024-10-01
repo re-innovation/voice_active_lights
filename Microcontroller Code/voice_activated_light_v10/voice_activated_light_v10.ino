@@ -62,7 +62,7 @@ Adafruit_NeoPXL8 leds(NUM_LEDS, pins, COLOR_ORDER);
 static uint8_t colors[6][3] = {
   255, 60, 0,     // Row 0: Strand 1 colour 1: Orange
   0,   0, 255,    // Row 1: Strand 1 colour 2: Blue
-  255, 60,   0,    // Row 2: Strand 2 colour 1: Red
+  255, 60,   0,   // Row 2: Strand 2 colour 1: Orange
   0, 255,   0,    // Row 3: Strand 2 colour 2: Green
   255,   0, 255,  // Row 4: Strand 3 colour 1: Purple
   255, 255, 0,    // Row 5: Strand 3 colour 2: Yellow
