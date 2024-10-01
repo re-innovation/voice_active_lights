@@ -1,0 +1,19 @@
+Try using Adafruit Feather:
+https://www.adafruit.com/product/5650
+https://learn.adafruit.com/introducing-feather-rp2040-scorpio/overview
+
+
+Got driver for Arduino:
+https://github.com/adafruit/Adafruit_NeoPXL8
+
+and Circuit Python:
+https://github.com/adafruit/Adafruit_CircuitPython_NeoPxl8
+
+I'm going to use Arduino.
+testing with a Pico W Plasma (Pimoroni) with LED on GP15.
+
+ADC is available on GP26/27/28 (ADC0/1/2)
+
+Lest start getting LEDs to show....
+
+
