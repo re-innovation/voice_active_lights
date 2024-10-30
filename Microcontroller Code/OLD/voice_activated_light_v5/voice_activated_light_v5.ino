@@ -128,7 +128,7 @@ void t1SCallback() {
 
     // here we can include mapping for the sensitivity
     // leds_switched_on  = map(sound_above, 0, sound_sensitivity, SOUND_MIN, SOUND_MAX); // FUTURE TESTING
-    leds_switched_on  = map(sound_above, MIN_SOUND, 4095, 0, NUM_LEDS);
+    leds_switched_on  = map(sound_above, MIN_SOUND, sound_sensitivity, 0, NUM_LEDS);
     leds_switched_on = constrain(leds_switched_on, 0, NUM_LEDS);
 
     if (DEBUG_SOUND == true)

@@ -3,13 +3,13 @@
 #include <Arduino.h>
 
 #define DEBUG                       true // Control if we see debug messages or not
-#define DEBUG_SOUND                 false // Control if we see debug messages or not
-#define DEBUG_LED                   true // Control if we see debug messages or not
+#define DEBUG_SOUND                 true // Control if we see debug messages or not
+#define DEBUG_LED                   false // Control if we see debug messages or not
 
 #define HEARTBEAT_LED_PIN           LED_BUILTIN
 
-#define SOUND_PIN       26    // Has the sound sensor on this pin
-#define POT_PIN         27    // Has the sensitivity potentiometer on this pin
+#define SOUND_PIN       27    // Has the sound sensor on this pin
+#define POT_PIN         26    // Has the sensitivity potentiometer on this pin
 
 #define MIN_SOUND       50    // Removes lower sounds
 
